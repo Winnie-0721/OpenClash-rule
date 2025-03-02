@@ -342,6 +342,9 @@ DOMAIN-SUFFIX,staticfile.org
 DOMAIN-SUFFIX,upaiyun.com
 
 
+# bing 必应搜索
+DOMAIN-SUFFIX,bing.com
+
 
 # AccelerateDirectSites
 DOMAIN-SUFFIX,10010.com
