@@ -12,26 +12,6 @@ proxy-providers:
 proxies:
   - {name: 直连, type: direct}
 
-port: 7890
-socks-port: 7891
-redir-port: 7892
-mixed-port: 7893
-tproxy-port: 7894
-allow-lan: true
-bind-address: "*"
-ipv6: false
-unified-delay: true
-tcp-concurrent: true
-log-level: warning
-find-process-mode: 'off'
-global-client-fingerprint: chrome
-keep-alive-idle: 600
-keep-alive-interval: 15
-disable-keep-alive: false
-profile:
-  store-selected: true
-  store-fake-ip: true
-
 sniffer:
   enable: true
   sniff:
@@ -75,7 +55,7 @@ dns:
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
-     
+
 pr: &pr {type: select, proxies: [ 🔯 香港故转, 🔯 台湾故转, 🔯 日本故转, 🔯 新加坡故转, 🔯 美国故转, ♻️ 香港自动, ♻️ 台湾自动, ♻️ 日本自动, ♻️ 新加坡自动, ♻️ 美国自动, ♻️ 自动选择, 🌐 全部节点, 直连]}
 proxy-groups:
   - {name: 🚀 默认代理, <<: *pr}
@@ -110,7 +90,6 @@ proxy-groups:
   - {name: 🇸🇬 新加坡节点, type: select, include-all: true, filter: "(?i)新加坡|坡|狮城|SG|Singapore|🇸🇬"}
   - {name: 🇺🇸 美国节点, type: select, include-all: true, filter: "(?i)美国|us|unitedstates|united states|🇺🇸|🇺🇲"}
   - {name: 🌐 全部节点, type: select, include-all: true}
-
 
 rules:
   - RULE-SET,private_domain,直连
