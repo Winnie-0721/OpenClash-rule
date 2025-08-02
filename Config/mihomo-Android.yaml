@@ -73,23 +73,24 @@ proxy-groups:
   - {name: 🍎 Apple, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 🎯 直连, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 🐟 漏网之鱼, <<: *pr}
-  - {name: 🔯 香港故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇭🇰 香港节点, ♻️ 香港自动]}
-  - {name: 🔯 台湾故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇹🇼 台湾节点, ♻️ 台湾自动]}
-  - {name: 🔯 日本故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇯🇵 日本节点, ♻️ 日本自动]}
-  - {name: 🔯 新加坡故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇸🇬 新加坡节点, ♻️ 新加坡自动]}
-  - {name: 🔯 美国故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇺🇸 美国节点, ♻️ 美国自动]}
-  - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(香港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
-  - {name: ♻️ 台湾自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台湾|TW|(?i)Tai))^((?!(港|日|韩|新|美)).)*$" }
-  - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日本|JP|(?i)Singapore|🇸🇬))^((?!(港|台|韩|新|美)).)*$" }
-  - {name: ♻️ 新加坡自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(新加坡|SG|(?i)))^((?!(港|日|台|韩|美)).)*$" }
-  - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美国|US|(?i)States|America|🇺🇸|🇺🇲))^((?!(港|台|日|韩|新)).)*$"}
-  - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)香港|hk|hongkong|hong kong|🇭🇰"}
   - {name: 🇹🇼 台湾节点, type: select, include-all: true, filter: "(?i)台湾|TW|(?i)Tai|🇹🇼"}
   - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)日本|jp|japan|🇯🇵"}
   - {name: 🇸🇬 新加坡节点, type: select, include-all: true, filter: "(?i)新加坡|坡|狮城|SG|Singapore|🇸🇬"}
   - {name: 🇺🇸 美国节点, type: select, include-all: true, filter: "(?i)美国|us|unitedstates|united states|🇺🇸|🇺🇲"}
   - {name: 🌐 全部节点, type: select, include-all: true}
+  - {name: 🔯 香港故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇭🇰 香港节点, ♻️ 香港自动]}
+  - {name: 🔯 台湾故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇹🇼 台湾节点, ♻️ 台湾自动]}
+  - {name: 🔯 日本故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇯🇵 日本节点, ♻️ 日本自动]}
+  - {name: 🔯 新加坡故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇸🇬 新加坡节点, ♻️ 新加坡自动]}
+  - {name: 🔯 美国故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇺🇸 美国节点, ♻️ 美国自动]
+  - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(香港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
+  - {name: ♻️ 台湾自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台湾|TW|(?i)Tai))^((?!(港|日|韩|新|美)).)*$" }
+  - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日本|JP|(?i)Singapore|🇸🇬))^((?!(港|台|韩|新|美)).)*$" }
+  - {name: ♻️ 新加坡自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(新加坡|SG|(?i)))^((?!(港|日|台|韩|美)).)*$" }
+  - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美国|US|(?i)States|America|🇺🇸|🇺🇲))^((?!(港|台|日|韩|新)).)*$"}
+  - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300}
+
 
 rules:
   - RULE-SET,private_domain,直连
