@@ -97,7 +97,7 @@ proxy-groups:
   - {name: 🔯 台湾故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇹🇼 台湾节点, ♻️ 台湾自动]}
   - {name: 🔯 日本故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇯🇵 日本节点, ♻️ 日本自动]}
   - {name: 🔯 新加坡故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇸🇬 新加坡节点, ♻️ 新加坡自动]}
-  - {name: 🔯 美国故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇺🇸 美国节点, ♻️ 美国自动}
+  - {name: 🔯 美国故转, type: fallback, tolerance: 20, interval: 180, lazy: false, proxies: [ 🇺🇸 美国节点, ♻️ 美国自动]}
   - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(香港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
   - {name: ♻️ 台湾自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台湾|TW|(?i)Tai))^((?!(港|日|韩|新|美)).)*$" }
   - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日本|JP|(?i)Singapore|🇸🇬))^((?!(港|台|韩|新|美)).)*$" }
