@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,bing.cn
 DOMAIN-SUFFIX,tc.mm.bing.net
+DOMAIN-SUFFIX,login.live.com
 
 # mihomo Wiki
 DOMAIN-SUFFIX,wiki.metacubex.one
