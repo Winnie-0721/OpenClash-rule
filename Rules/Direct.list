@@ -1,12 +1,9 @@
 # MyList
 
-# 域名后缀匹配
-#DOMAIN-SUFFIX,bing.com
-# 域名关键字匹配
-#DOMAIN-KEYWORD,baidu
-
-# IP段匹配
-#IP-CIDR,219.146.1.66/32,no-resolve
+#示例
+#DOMAIN-SUFFIX,bing.com  # 域名后缀匹配
+#DOMAIN-KEYWORD,baidu  # 域名关键字匹配
+#IP-CIDR,219.146.1.66/32,no-resolve  # IP段匹配
 
 # bing 必应搜索
 DOMAIN-SUFFIX,bing.com
