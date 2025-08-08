@@ -14,3 +14,5 @@ DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,bing.cn
 DOMAIN-SUFFIX,tc.mm.bing.net
 
+# 域名后缀匹配
+#DOMAIN-SUFFIX,wiki.metacubex.one
