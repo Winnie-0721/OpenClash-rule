@@ -13,3 +13,11 @@ DOMAIN-SUFFIX,tc.mm.bing.net
 
 # mihomo Wiki
 DOMAIN-SUFFIX,wiki.metacubex.one
+
+# DNS
+IP-CIDR,211.141.85.68,no-resolve
+IP-CIDR,211.141.90.68,no-resolve
+IP-CIDR,2409:8038:2000:1000:211:141:90:68,no-resolve
+IP-CIDR,2409:8038:2000:2000:211:141:85:68,no-resolve
+IP-CIDR,223.5.5.5,no-resolve
+
