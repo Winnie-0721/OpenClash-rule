@@ -1,5 +1,3 @@
-# MyList
-
 #示例
 #DOMAIN-SUFFIX,bing.com  # 域名后缀匹配
 #DOMAIN-KEYWORD,baidu  # 域名关键字匹配
