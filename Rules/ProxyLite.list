@@ -1,10 +1,7 @@
-# 代理补充列表
-
-# 域名后缀匹配
-#DOMAIN-SUFFIX,
-
-# 域名关键字匹配
-#DOMAIN-KEYWORD,
+#示例
+#DOMAIN-SUFFIX,bing.com  # 域名后缀匹配
+#DOMAIN-KEYWORD,baidu  # 域名关键字匹配
+#IP-CIDR,219.146.1.66/32,no-resolve  # IP段匹配
 
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
