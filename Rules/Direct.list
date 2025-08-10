@@ -9,7 +9,11 @@ DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,bing.cn
 DOMAIN-SUFFIX,tc.mm.bing.net
 DOMAIN-SUFFIX,login.live.com
-DOMAIN-SUFFIX,login.microsoftonline.com
+
+
+#microsoft
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
 
 # mihomo Wiki
 DOMAIN-SUFFIX,wiki.metacubex.one
