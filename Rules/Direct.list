@@ -18,8 +18,9 @@ DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,wiki.metacubex.one
 
 # Freezer
-DOMAIN-SUFFIX,freezer.sakion.top
 DOMAIN-SUFFIX,app.shrairo.xyz
+DOMAIN-KEYWORD,freezer.sakion
+
 
 # 养鸡场XFLTD
 DOMAIN-KEYWORD,xfltd
