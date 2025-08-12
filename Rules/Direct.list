@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,bing.cn
 DOMAIN-SUFFIX,tc.mm.bing.net
 DOMAIN-SUFFIX,login.live.com
 
-#microsoft
+# microsoft
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,microsoftonline.com
 
@@ -20,6 +20,6 @@ DOMAIN-SUFFIX,wiki.metacubex.one
 # Freezer
 DOMAIN-SUFFIX,freezer.sakion.top
 
-# 养鸡场
+# 养鸡场XFLTD
 DOMAIN-KEYWORD,xfltd
 DOMAIN-SUFFIX,xn--l6qx3l1p4e.top
