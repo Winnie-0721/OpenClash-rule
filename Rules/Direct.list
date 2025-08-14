@@ -18,10 +18,12 @@ DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,wiki.metacubex.one
 
 # Freezer
-DOMAIN-SUFFIX,app.shrairo.xyz
 DOMAIN-KEYWORD,freezer.sakion
-
+DOMAIN-SUFFIX,app.shrairo.xyz
 
 # 养鸡场XFLTD
 DOMAIN-KEYWORD,xfltd
 DOMAIN-SUFFIX,xn--l6qx3l1p4e.top
+
+# Windows
+DOMAIN-SUFFIX,windows.com
