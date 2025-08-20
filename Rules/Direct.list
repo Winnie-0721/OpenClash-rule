@@ -5,7 +5,6 @@
 
 # bing 必应搜索
 DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,bing.cn
 DOMAIN-SUFFIX,tc.mm.bing.net
 DOMAIN-SUFFIX,login.live.com
@@ -27,3 +26,6 @@ DOMAIN-SUFFIX,xn--l6qx3l1p4e.top
 
 # Windows
 DOMAIN-SUFFIX,windows.com
+
+#镜像
+DOMAIN-SUFFIX,gh-proxy.com
