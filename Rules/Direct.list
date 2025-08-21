@@ -1,20 +1,24 @@
-# bing 和 microsoft
-+.bing.com
-+.bing.cn
-+.tc.mm.bing.net
-+.login.live.com
-+.microsoft.com
-+.microsoftonline.com
+# bing 
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,cn.bing.com
+DOMAIN-SUFFIX,bing.cn
+DOMAIN-SUFFIX,tc.mm.bing.net
+DOMAIN-SUFFIX,login.live.com
+
+# microsoft
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
 
 # mihomo Wiki
-+.wiki.metacubex.one
+DOMAIN-SUFFIX,wiki.metacubex.one
+
+# Freezer
+DOMAIN-KEYWORD,freezer.sakion
+DOMAIN-SUFFIX,app.shrairo.xyz
 
 # 养鸡场XFLTD
-+.xfltd
-+.xn--l6qx3l1p4e.top
+DOMAIN-KEYWORD,xfltd
+DOMAIN-SUFFIX,xn--l6qx3l1p4e.top
 
 # Windows
-+.windows.com
-
-#镜像
-+.,gh-proxy.com
+DOMAIN-SUFFIX,windows.com
