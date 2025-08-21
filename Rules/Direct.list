@@ -1,26 +1,20 @@
-# bing 必应搜索
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bing.cn
-DOMAIN-SUFFIX,tc.mm.bing.net
-DOMAIN-SUFFIX,login.live.com
-
-# microsoft
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,microsoftonline.com
+# bing 和 microsoft
++.bing.com
++.bing.cn
++.tc.mm.bing.net
++.login.live.com
++.microsoft.com
++.microsoftonline.com
 
 # mihomo Wiki
-DOMAIN-SUFFIX,wiki.metacubex.one
-
-# Freezer
-DOMAIN-KEYWORD,freezer.sakion
-DOMAIN-SUFFIX,app.shrairo.xyz
++.wiki.metacubex.one
 
 # 养鸡场XFLTD
-DOMAIN-KEYWORD,xfltd
-DOMAIN-SUFFIX,xn--l6qx3l1p4e.top
++.xfltd
++.xn--l6qx3l1p4e.top
 
 # Windows
-DOMAIN-SUFFIX,windows.com
++.windows.com
 
 #镜像
-DOMAIN-SUFFIX,gh-proxy.com
++.,gh-proxy.com
