@@ -1,11 +1,15 @@
 # microsoft（bing搜索）
 DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,bing.cn
 DOMAIN-SUFFIX,tc.mm.bing.net
 DOMAIN-SUFFIX,login.live.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,microsoftonline.com
+
+# github代理加速
+DOMAIN-SUFFIX,ghproxy.net
+DOMAIN-SUFFIX,gh-proxy.com
+DOMAIN-SUFFIX,ghfast.top
 
 # mihomo Wiki
 DOMAIN-SUFFIX,wiki.metacubex.one
@@ -20,3 +24,4 @@ DOMAIN-SUFFIX,xn--l6qx3l1p4e.top
 
 # Windows
 DOMAIN-SUFFIX,windows.com
+
