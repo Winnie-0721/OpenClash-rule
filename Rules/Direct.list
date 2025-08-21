@@ -1,22 +1,22 @@
 # microsoft（bing搜索）
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,cn.bing.com
-DOMAIN-SUFFIX,bing.cn
-DOMAIN-SUFFIX,tc.mm.bing.net
-DOMAIN-SUFFIX,login.live.com
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,microsoftonline.com
+# DOMAIN-SUFFIX,bing.com
+# DOMAIN-SUFFIX,cn.bing.com
+# DOMAIN-SUFFIX,bing.cn
+# DOMAIN-SUFFIX,tc.mm.bing.net
+# DOMAIN-SUFFIX,login.live.com
+# DOMAIN-SUFFIX,microsoft.com
+# DOMAIN-SUFFIX,microsoftonline.com
 
 # mihomo Wiki
-DOMAIN-SUFFIX,wiki.metacubex.one
+# DOMAIN-SUFFIX,wiki.metacubex.one
 
 # Freezer
-DOMAIN-KEYWORD,freezer.sakion
-DOMAIN-SUFFIX,app.shrairo.xyz
+# DOMAIN-KEYWORD,freezer.sakion
+# DOMAIN-SUFFIX,app.shrairo.xyz
 
 # 养鸡场XFLTD
-DOMAIN-KEYWORD,xfltd
-DOMAIN-SUFFIX,xn--l6qx3l1p4e.top
+# DOMAIN-KEYWORD,xfltd
+# DOMAIN-SUFFIX,xn--l6qx3l1p4e.top
 
 # Windows
-DOMAIN-SUFFIX,windows.com
+# DOMAIN-SUFFIX,windows.com
