@@ -1,11 +1,9 @@
-# bing 
+# microsoft（bing搜索）
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,bing.cn
 DOMAIN-SUFFIX,tc.mm.bing.net
 DOMAIN-SUFFIX,login.live.com
-
-# microsoft
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,microsoftonline.com
 
