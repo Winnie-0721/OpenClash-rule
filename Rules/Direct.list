@@ -13,9 +13,6 @@ DOMAIN-SUFFIX,ghproxy.net
 DOMAIN-SUFFIX,gh-proxy.com
 DOMAIN-SUFFIX,ghfast.top
 
-# mihomo Wiki
-DOMAIN-SUFFIX,wiki.metacubex.one
-
 # Freezer
 DOMAIN-KEYWORD,freezer.sakion
 DOMAIN-SUFFIX,app.shrairo.top
